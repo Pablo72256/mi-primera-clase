@@ -38,7 +38,7 @@ public class Taladro {
     
     
     //Metodo modificador del segundo atributo del taladro
-    public void setPotencia(int potenciaDelTaladro) {
+    public void Potencia(int potenciaDelTaladro) {
         potenciaTaladro = potenciaTaladro + potenciaDelTaladro;    
     }
     
