@@ -38,7 +38,7 @@ public class Taladro {
     
     
     //Metodo modificador del segundo atributo del taladro
-    public void Potencia(int potenciaDelTaladro) {
+    public void sumarPotencia(int potenciaDelTaladro) {
         potenciaTaladro = potenciaTaladro + potenciaDelTaladro;    
     }
     
@@ -57,14 +57,7 @@ public class Taladro {
     
     //Metodo para imprimir por pantalla el estado del taladro
     public void imprimeEstadoDelTaladro() {
-        String manualEnEspañol = "Si";
-        if (manual == true){
-            manualEnEspañol = "si";
-        }
-        else {
-            manualEnEspañol = "no";
-        }
-        System.out.println("Marca del taladro: "+ marcaTaladro +" Potencia del taladro: "+ potenciaTaladro +" Es manual: " + manualEnEspañol);
+        System.out.println(getDevolverEstadoDelObjeto());
     }
     
     
