@@ -64,7 +64,7 @@ public class Taladro {
         else {
             manualEnEspañol = "no";
         }
-        System.out.println("Marca del taladro: "+ marcaTaladro +" Potencia del taladro: "+ potenciaTaladro +" Es manual: " + manual);
+        System.out.println("Marca del taladro: "+ marcaTaladro +" Potencia del taladro: "+ potenciaTaladro +" Es manual: " + manualEnEspañol);
     }
     
     
@@ -77,7 +77,7 @@ public class Taladro {
         else {
             manualEnEspañol = "no";
         }
-        String estadoDelObjeto = "Marca del taladro: "+ marcaTaladro +" Potencia del taladro: "+ potenciaTaladro +" Es manual: " + manual;
+        String estadoDelObjeto = "Marca del taladro: "+ marcaTaladro +" Potencia del taladro: "+ potenciaTaladro +" Es manual: " + manualEnEspañol;
         return estadoDelObjeto;
     }
 }
