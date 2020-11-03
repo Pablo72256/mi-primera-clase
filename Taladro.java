@@ -57,15 +57,26 @@ public class Taladro {
     
     //Metodo para imprimir por pantalla el estado del taladro
     public void imprimeEstadoDelTaladro() {
-        System.out.println("##################");
+        String manualEnEspañol = "Si";
+        if (manual == true){
+            manualEnEspañol = "si";
+        }
+        else {
+            manualEnEspañol = "no";
+        }
         System.out.println("Marca del taladro: "+ marcaTaladro +" Potencia del taladro: "+ potenciaTaladro +" Es manual: " + manual);
-        System.out.println("##################");
-
     }
     
     
     //Metodo para devolver un string con el estado del taladro
     public String getDevolverEstadoDelObjeto() {
+        String manualEnEspañol = "Si";
+        if (manual == true){
+            manualEnEspañol = "si";
+        }
+        else {
+            manualEnEspañol = "no";
+        }
         String estadoDelObjeto = "Marca del taladro: "+ marcaTaladro +" Potencia del taladro: "+ potenciaTaladro +" Es manual: " + manual;
         return estadoDelObjeto;
     }
